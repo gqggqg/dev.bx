@@ -9,7 +9,7 @@ $result = 0;
 
 do
 {
-	$input = readFromConsole("Введите число: ");
+	$input = readFromConsole("Введите число: ", "stop");
 	$result += $input;
 } while ($input != NULL);
 

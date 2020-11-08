@@ -1,12 +1,12 @@
 <?php
 
-function readFromConsole(string $string = ""): ?float
+function readFromConsole(string $string = "", string $end = "exit"): ?float
 {
 	while (true)
 	{
 		echo $string;
 		$input = trim(fgets(STDIN));
-		if ($input == "stop")
+		if ($input == $end)
 		{
 			return null;
 		}
