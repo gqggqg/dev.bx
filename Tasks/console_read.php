@@ -5,7 +5,11 @@ function readFromConsole(string $message, $input = NULL)
 	echo $message;
 	$input = $input ?: trim(fgets(STDIN));
 
-	if ($input == 'true')
+	if ($input == '!stop')
+	{
+		$input = NULL;
+	}
+	elseif ($input == 'true')
 	{
 		$input = true;
 	}

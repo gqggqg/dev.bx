@@ -14,6 +14,8 @@ foreach ($variables as $value)
 	assertEquals($value, readFromConsole('', $parameter), "readFromConsole('', {$parameter}) return " . varDumbToString($value));
 }
 
+assertEquals(NULL, readFromConsole('', '!stop'), "readFromConsole('', '!stop') return NULL");
+
 function varDumbToString($var = null)
 {
 	ob_start();
