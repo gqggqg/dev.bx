@@ -1,13 +1,16 @@
 <?php
 
-function readFromConsole(string $message, $input = NULL)
+function readFromConsole(string $message, $input = null)
 {
-	echo $message;
-	$input = $input ?: trim(fgets(STDIN));
+	if ($input == null)
+	{
+		echo $message;
+		$input = trim(fgets(STDIN));
+	}
 
 	if ($input == '!stop')
 	{
-		$input = NULL;
+		$input = null;
 	}
 	elseif ($input == 'true')
 	{
