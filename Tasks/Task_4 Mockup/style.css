@@ -1,0 +1,178 @@
+body {
+	width: 1440px;
+	margin: 0 auto;
+	font-family: "Helvetica Neue", sans-serif;
+	color: #000;
+}
+
+.header {
+	height: 409px;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid rgba(37, 124, 244, 0.4);
+	background: rgba(0, 101, 242, 0.12);
+}
+
+.header__content {
+	width: 540px;
+	height: 289px;
+	margin: 60px 450px;
+	text-align: center;
+}
+
+.header__content__title {
+	height: 96px;
+	margin-bottom: 24px;
+}
+
+h1 {
+	font-size: 40px;
+	line-height: 48px;
+	letter-spacing: -0.5px;
+}
+
+.header__content__text {
+	height: 84px;
+	margin-bottom: 40px;
+}
+
+.text_18pt {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.header__content__logos {
+	width: 400px;
+	height: 45px;
+	margin: 0 70px;
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+img[alt="pay pal logo"] {
+	left: 0;
+}
+
+img[alt="android pay logo"] {
+	left: 126px;
+}
+
+img[alt="apple pay logo"] {
+	right: 144px;
+}
+
+img[alt="samsung pay logo"] {
+	right: 0;
+}
+
+.cover {
+	height: 500px;
+}
+
+.cover_column {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.cover__content {
+	height: 300px;
+	width: 445px;
+	margin: 100px 110px 100px 165px;
+}
+
+.cover__content__title {
+	height: 120px;
+	margin-bottom: 24px;
+}
+
+h2 {
+	font-size: 56px;
+	line-height: 60px;
+	letter-spacing: -1px;
+	margin: 0;
+}
+
+.cover__content__text {
+	height: 84px;
+	margin-bottom: 44px;
+}
+
+.cover__content__link {
+	width: 88px;
+	height: 28px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 28px;
+	color: #0065F2;
+}
+
+.cover__media {
+	height: 380px;
+	width: 555px;
+	margin: 60px auto;
+}
+
+.section {
+	height: 800px;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+}
+
+.section__content {
+	width: 1110px;
+	height: 588px;
+	margin: 40px 165px;
+}
+
+.section__content__title {
+	margin-bottom: 40px;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: -0.1px;
+	margin: 0;
+}
+
+.section__content__headline {
+	margin: 16px 0;
+}
+
+h4 {
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 500;
+	margin: 0;
+}
+
+.text_16pt {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+	margin: 0;
+}
+
+.text_large-margin {
+	margin-bottom: 26px;
+}
+
+.text_blue {
+	color: #0065F2;
+}
+
+ul {
+	padding: 0;
+	margin-left: 17px;
+}
+
+.list__item {
+	margin-bottom: 8px;
+}
