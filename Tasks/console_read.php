@@ -1,6 +1,6 @@
 <?php
 
-function readFromConsole(string $message, $input = null)
+function readFromConsole(string $message = '', $end = '\n', $input = null)
 {
 	if ($input == null)
 	{
@@ -8,7 +8,7 @@ function readFromConsole(string $message, $input = null)
 		$input = trim(fgets(STDIN));
 	}
 
-	if ($input == '!stop')
+	if ($input == $end)
 	{
 		$input = null;
 	}
