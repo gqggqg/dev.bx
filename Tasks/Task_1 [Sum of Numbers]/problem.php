@@ -1,6 +1,6 @@
 <?php
 
-require_once 'console_read.php';
+require_once '..\console_read.php';
 
 echo "Программа сумматор.\n";
 echo "Введите числа для сложения. Для окончания ввода введите stop.\n";

@@ -1,7 +1,7 @@
 <?php
 
 require_once 'directory_status.php';
-require_once 'assert_equals.php';
+require_once '..\assert_equals.php';
 
 // при первом запуске существует файл .gikeep, сохраняющий струтуру файлов для гита
 $gitKeepFile = './Empty Folder/.gitkeep';
@@ -46,7 +46,7 @@ $result = [
 	],
 ];
 
-list($dirPerms, $filePerms) = [fileperms("./Test Folder/Folder 2"), fileperms("./Test Folder/file_2")];
+[$dirPerms, $filePerms] = [fileperms("./Test Folder/Folder 2"), fileperms("./Test Folder/file_2")];
 
 // изменение режима доступа: папка и файл доступны только для чтения
 chmod("./Test Folder/Folder 2", 0444);
