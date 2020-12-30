@@ -21,9 +21,9 @@ CREATE TABLE book_store
 );
 
 INSERT INTO store (CITY)
-VALUES  ('Калининград'),
-		('Черняховск'),
-        ('Советск');
+VALUES ('Калининград'),
+       ('Черняховск'),
+       ('Советск');
 
 INSERT INTO book_store (BOOK_ID, PRICE, QUANTITY)
 SELECT ID, PRICE, QUANTITY FROM book;
