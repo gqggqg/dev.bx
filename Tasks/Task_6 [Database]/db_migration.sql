@@ -7,7 +7,7 @@ CREATE TABLE store
 
 CREATE TABLE book_store
 (
-	STORE_ID int not null default 1,
+	STORE_ID int not null,
 	BOOK_ID int not null,
 	PRICE DECIMAL(10, 2),
 	QUANTITY int unsigned default 0,
@@ -25,8 +25,8 @@ VALUES ('Калининград'),
        ('Черняховск'),
        ('Советск');
 
-INSERT INTO book_store (BOOK_ID, PRICE, QUANTITY)
-SELECT ID, PRICE, QUANTITY FROM book;
+INSERT INTO book_store (STORE_ID, BOOK_ID, PRICE, QUANTITY)
+SELECT 1, ID, PRICE, QUANTITY FROM book;
 
 ALTER TABLE book DROP PRICE;
 ALTER TABLE book DROP QUANTITY;
