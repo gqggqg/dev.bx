@@ -35,11 +35,9 @@
 							Lorem ipsum dolor sit amet,<br>
 							consectetur adipiscing elit
 						</h5>
-						<div class="content__posts__cards__moto__description__spoiler">
-							<a href="">
-								Learn More
-							</a>
-						</div>
+						<a href="">
+							Learn More
+						</a>
 					</div>
 				</div>
 
@@ -52,11 +50,9 @@
 							Lorem ipsum dolor sit amet,<br>
 							consectetur adipiscing elit
 						</h5>
-						<div class="content__posts__cards__moto__description__spoiler">
-							<a href="">
-								Learn More
-							</a>
-						</div>
+						<a href="">
+							Learn More
+						</a>
 					</div>
 				</div>
 
@@ -69,11 +65,9 @@
 							Lorem ipsum dolor sit amet,<br>
 							consectetur adipiscing elit
 						</h5>
-						<div class="content__posts__cards__moto__description__spoiler">
-							<a href="">
-								Learn More
-							</a>
-						</div>
+						<a href="" class="moto-3-desc_spoiler">
+							Learn More
+						</a>
 					</div>
 				</div>
 			</div>
