@@ -9,7 +9,6 @@
 }
 
 body {
-    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,6 +99,7 @@ h2 {
     font-size: 18px;
     line-height: 21px;
     color: #FFF;
+    text-decoration: none;
 }
 
 .menu__title {
@@ -124,12 +124,164 @@ h2 {
 }
 
 .button-menu {
-    width: 179px;
-    height: 40px;
-    font-size: 14px;
-    line-height: 16px;
+	width: 179px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 16px;
 }
 
+.content__posts {
+	min-height: 821px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
 
+.content__posts__title {
+	margin-top: 70px;
+	font-size: 24px;
+	line-height: 28px;
+}
 
+.content__posts__subtitle {
+	margin-top: 25px;
+	font-size: 18px;
+	line-height: 27px;
+}
 
+.content__posts__cards {
+	display: flex;
+    align-items: center;
+	margin-top: 88px;
+	text-align: left;
+}
+
+.content__posts__cards__moto {
+	width: 370px;
+	height: 502px;
+}
+
+.moto-3 .content__posts__cards__moto__image  {
+	margin-top: 37px;
+}
+
+.moto-3 .content__posts__cards__moto__description {
+	margin-top: 34px;
+}
+
+h5 {
+	font-size: 24px;
+	line-height: 33px;
+}
+
+.moto-3-desc_spoiler {
+	font-size: 14px;
+	line-height: 19px;
+	text-decoration-line: underline;
+}
+
+.content__feature {
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content__feature__description + .content__feature__media {
+	margin-left: 76px;
+}
+
+.content__feature__description {
+    margin-top: 35px;
+}
+
+.content__feature__description__title h4 {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 28px;
+	margin-bottom: 24px;
+}
+
+.content__feature__description__text {
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.content__feature__media img {
+    border-radius: 8px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 266px;
+    background: #F2C94C;
+}
+
+.social-links__title {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 32px;
+}
+
+.social-links__logos {
+    display: flex;
+}
+
+.social-logo {
+    margin-left: 40px;
+}
+
+.flex_centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_colm {
+    flex-direction: column;
+}
+
+.footer * {
+    color: #FFF;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer {
+    height: 380px;
+    background: #333333;
+}
+
+.footer__links {
+    margin-left: 150px;
+}
+
+.footer__links__title {
+    margin-bottom: 25px;
+}
+
+.footer__links__title h6 {
+    font-weight: bold;
+}
+
+.footer__links__list a {
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+.footer__copyright {
+    margin-right: 147px;
+    align-items: flex-start;
+}
+
+.footer__copyright__logo {
+    margin-bottom: 19px;
+}
+
+.footer__copyright__data {
+    margin-bottom: 13px;
+}

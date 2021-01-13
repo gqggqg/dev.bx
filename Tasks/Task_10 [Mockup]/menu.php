@@ -2,10 +2,18 @@
 	<div class="menu">
 		<div class="menu__links">
 			<nav class="menu__links__wrapper">
-				<a class="menu-link">Link 1</a>
-				<a class="menu-link">Link 2</a>
-				<a class="menu-link">Link 3</a>
-				<a class="menu-link">Link 4</a>
+				<a  href="" class="menu-link">
+					Link 1
+				</a>
+				<a  href="" class="menu-link">
+					Link 2
+				</a>
+				<a  href="" class="menu-link">
+					Link 3
+				</a>
+				<a  href="" class="menu-link">
+					Link 4
+				</a>
 			</nav>
 		</div>
 		<div class="menu__title">
